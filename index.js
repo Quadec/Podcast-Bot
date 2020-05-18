@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client();
-//const token = 'NzA3NTIxMTM0NTk3NTA1MDI1.XsB8Qg.yMi7WrMgeLhDGQuMHlFpk7dExJU'
+const token = 'NzA3NTIxMTM0NTk3NTA1MDI1.XsB8Qg.yMi7WrMgeLhDGQuMHlFpk7dExJU'
 const prefix = '.';
 const fs = require('fs');
 bot.commands = new Discord.Collection();

@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node index.js",
+    "dev" : "nodemon index.js"
   },
+  "keywords": [],
   "author": "Quadec",
   "license": "ISC",
   "dependencies": {
+    "ansi-colors": "^4.1.1",
     "discord": "^0.8.2",
     "discord.js": "^12.2.0"
   }

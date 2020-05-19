@@ -3,10 +3,7 @@ const bot = new Discord.Client();
 const token = 'NzA3NTIxMTM0NTk3NTA1MDI1.XsB8Qg.yMi7WrMgeLhDGQuMHlFpk7dExJU'
 const prefix = '.';
 const fs = require('fs');
-const figlet = require('figlet');
-const colors = require('colors');
 const readline = require('readline');
-const commando = require(`discord.js-commando`);
 
 bot.commands = new Discord.Collection();
 
